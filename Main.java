@@ -75,17 +75,17 @@ public class Main {
 					case 'D':
 						System.out.printf("Enter deposit amount");
 						salary=sc.nextInt();
-						s.deposit(salary);
+						b.deposit(salary);
 						System.out.println("Your deposit amount:" +s.deposit(salary));
 						break;
 					case 'W':
 						System.out.printf("Enter withdrawal amount");
 						salary=sc.nextInt();
-						s.withdrawl(salary);
+						b.withdrawl(salary);
 						System.out.println("Your withdrawn amount:" +s.withdrawl(salary));
 						break;
 					case 'S':
-						s.log();
+						b.log();
 					case 'Q':
 						System.out.println("Exit");
 						break;
@@ -108,17 +108,17 @@ public class Main {
 					case 'D':
 						System.out.printf("Enter deposit amount");
 						salary=sc.nextInt();
-						s.deposit(salary);
+						i.deposit(salary);
 						System.out.println("Your deposit amount:" +s.deposit(salary));
 						break;
 					case 'W':
 						System.out.printf("Enter withdrawal amount");
 						salary=sc.nextInt();
-						s.withdrawl(salary);
+						i.withdrawl(salary);
 						System.out.println("Your withdrawn amount:" +s.withdrawl(salary));
 						break;
 					case 'S':
-						s.log();
+						i.log();
 					case 'Q':
 						System.out.println("Exit");
 						break;
